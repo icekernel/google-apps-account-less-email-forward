@@ -40,11 +40,14 @@ We will now trick gmail to send email smtp.gmail.com server.
     - Leave “treat as alias” checked
     - Click next
   - Fill in gmail.com’s own smtp details
-    - SMTP server: smtp.gmail.com
-    - Username shoud be $username@gmail.com where $username is your own login, or your own GApps e-mail
-    - Fill in your gmail password or app-specific password
+    - SMTP server MUST be: smtp.gmail.com
+    - Username shoud be your gmail username, or your Google Apps e-mail address
+    - Fill in your password, or an app-specific password if you have 2-step auth.
     - Click *Add Account*
   - Confirmation email to arrive in your inbox, fill it in and hit *Verify*
 
 If you have two step verification you will need to generate an app-specific password,
 in this case you probably know how to do this... :)
+
+Troubleshooting: in case you have problems with authentication when you hit *Add Account* be sure to follow any supplied links and read up the error. Common authentication problems are Google's enhanced security features which forces you to [allow less secure apps](https://support.google.com/accounts/answer/6010255).
+
